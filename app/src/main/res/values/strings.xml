@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ConfApp</string>
+
+    <string name="activity_hello_textview_what_is_your_name">Как тебя зовут?</string>
+    <string name="activity_hello_edittext_enter_name">Введи имя</string>
+    <string name="action_continue">Продолжить</string>
+    <string name="action_back">Назад</string>
+
+    <!--UpcomingEventsActivity strings-->
+    <string name="activity_upcoming_events_button_sync">Sync loading</string>
+    <string name="activity_upcoming_events_button_async">Async loading</string>
+
+    <string name="activity_upcoming_events_button_like_text">В избранные</string>
+    <string name="activity_upcoming_events_branch_title">Data-Science</string>
+    <string name="activity_upcoming_events_event_state">Следующий доклад</string>
+    <string name="activity_upcoming_events_date_place">16:00 - 17:00 • Зал Номер 1</string>
+    <string name="activity_upcoming_events_speaker_name">Назым Сатбекова</string>
+    <string name="activity_upcoming_events_job">Machine Learning Engineer в Kolesa Group</string>
+    <string name="activity_upcoming_events_title">Как не пропустить плохой текст на сайт? NLP для обработки текста объявлений на market.kz</string>
+
+    <string name="activity_upcoming_header_greeting_text">Привет, Васян!</string>
+    <string name="branch_title_text">Android</string>
+    <string name="event_state_text_view_finished">Завершен</string>
+
+    <string name="activity_favorite_events_button_back">На главную</string>
+
+    <string name="activity_favorite_events_text_view_text">Здесь пока тихо</string>
+
+    <string name="activity_event_details_is_invited_text">Приглашенный спикер</string>
+    <string name="activity_event_details_speaker_name">Кирилл Розов</string>
+    <string name="activity_event_details_speaker_job">Mobile Lead в Replika.ai</string>
+    <string name="activity_event_details_start_end_place">15:00 - 16:00 • Зал номер 5</string>
+    <string name="activity_event_details_title">Увлекательная жизнь в панели уведомлений</string>
+    <string name="activity_event_content">Системные уведомления позволяют пользователям получать информацию, не заходя в приложение, и быстрее с ним взаимодействовать.
+    Как использовать все возможности системы уведомлений? Как сделать уведомления в каждой версии ОС и использовать их возможности по максимуму? NotificationCompat не решит все за вас. Обо всем этом поговорим в докладе.</string>
+
+</resources>

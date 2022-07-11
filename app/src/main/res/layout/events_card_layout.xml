@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/events_card_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_events_card"
+    android:paddingTop="@dimen/view_padding_4x"
+    android:paddingHorizontal="@dimen/view_padding_16x"
+    android:paddingBottom="@dimen/view_padding_16x"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/event_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_upcoming_events_event_state"
+        android:paddingHorizontal="@dimen/view_padding_5x"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/activity_upcoming_events_view_text_size_13x"
+        android:textColor="@color/activity_upcoming_events_state_text_color"
+        android:background="@drawable/bg_event_state_label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/time_start_end_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_upcoming_events_date_place"
+        android:layout_marginTop="@dimen/view_margin_25x"
+        android:textSize="@dimen/activity_upcoming_events_view_text_size_14x"
+        android:textColor="@color/activity_upcoming_events_date_place_text_color"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/ic_favorite"
+        android:layout_width="@dimen/heart_width_height"
+        android:layout_height="@dimen/heart_width_height"
+        android:background="@drawable/ic_favorite_border"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/time_start_end_place"
+        app:layout_constraintBottom_toBottomOf="@id/time_start_end_place"
+        />
+
+    <TextView
+        android:id="@+id/speaker_name"
+        android:layout_width="@dimen/activity_upcoming_events_card_text_view_width"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_upcoming_events_speaker_name"
+        android:layout_marginTop="@dimen/view_margin_8x"
+        android:textColor="@color/activity_upcoming_events_speaker_text_color"
+        android:textSize="@dimen/activity_upcoming_events_view_text_size_14x"
+        android:fontFamily="@font/roboto_medium"
+        app:layout_constraintStart_toStartOf="@+id/time_start_end_place"
+        app:layout_constraintTop_toBottomOf="@+id/time_start_end_place"
+        />
+
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="@dimen/activity_upcoming_events_card_text_view_width"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_upcoming_events_job"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/activity_upcoming_events_job_text_color"
+        android:textSize="@dimen/activity_upcoming_events_view_text_size_13x"
+        android:minLines="2"
+        android:maxLines="2"
+        android:ellipsize="end"
+        app:layout_constraintStart_toStartOf="@+id/speaker_name"
+        app:layout_constraintTop_toBottomOf="@+id/speaker_name"
+        />
+
+    <TextView
+        android:id="@+id/event_title"
+        android:layout_width="@dimen/activity_upcoming_events_card_text_view_width"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_upcoming_events_title"
+        android:layout_marginTop="@dimen/view_margin_8x"
+        android:textColor="@color/activity_upcoming_events_title_text_color"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/activity_upcoming_events_view_text_size_14x"
+        android:minLines="3"
+        android:maxLines="3"
+        android:ellipsize="end"
+        app:layout_constraintStart_toStartOf="@id/job"
+        app:layout_constraintTop_toBottomOf="@id/job"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

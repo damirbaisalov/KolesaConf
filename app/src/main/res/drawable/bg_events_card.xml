@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="@dimen/view_padding_16x">
+
+    <item android:top="@dimen/view_padding_12x">
+        <shape>
+
+            <corners android:radius="@dimen/activity_upcoming_events_radius_border_card_view"/>
+
+            <solid android:color="@color/white"/>
+
+        </shape>
+    </item>
+
+</layer-list >

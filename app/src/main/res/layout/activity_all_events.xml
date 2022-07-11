@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".events.presentation.AllEventsActivity"
+    android:background="@drawable/bg_upcoming_events_activity">
+
+    <include layout="@layout/activity_all_events_toolbar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_all_events_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            tools:listitem="@layout/branch_events_list_item"
+            android:paddingBottom="@dimen/activity_upcoming_events_recycler_view_padding_bottom"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            />
+
+        <Button
+            android:id="@+id/activity_all_events_favorites"
+            android:layout_width="@dimen/activity_upcoming_events_like_button_width"
+            android:layout_height="@dimen/activity_upcoming_events_like_button_height"
+            android:drawableStart="@drawable/ic_favorite_border"
+            android:drawablePadding="@dimen/view_padding_8x"
+            android:paddingLeft="@dimen/view_padding_16x"
+            android:paddingVertical="@dimen/view_padding_10x"
+            android:paddingRight="@dimen/view_padding_16x"
+            android:text="@string/activity_upcoming_events_button_like_text"
+            android:fontFamily="@font/roboto_regular"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_color"
+            android:textSize="@dimen/activity_upcoming_events_view_text_size_16x"
+            android:background="@drawable/bg_activity_upcoming_events_like_button"
+            android:layout_marginBottom="@dimen/view_padding_24x"
+            android:layout_gravity="center|bottom"
+            />
+
+        <ProgressBar
+            android:id="@+id/activity_all_events_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

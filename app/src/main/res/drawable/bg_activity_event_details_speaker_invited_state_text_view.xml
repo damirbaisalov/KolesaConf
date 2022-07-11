@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/bg_activity_event_details_text_view_speaker_invited_false"
+        android:state_enabled="false"/>
+
+    <item
+        android:drawable="@drawable/bg_activity_event_details_text_view_speaker_invited_true"/>
+
+</selector>

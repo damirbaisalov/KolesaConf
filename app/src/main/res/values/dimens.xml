@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_hello_frame_layout_height">165dp</dimen>
+    <dimen name="activity_hello_ic_corona_margin_horizontal">130dp</dimen>
+
+    <!--ic_corona size-->
+    <dimen name="activity_hello_ic_corona_height">130dp</dimen>
+    <dimen name="activity_hello_ic_corona_width">140dp</dimen>
+
+    <dimen name="view_margin_8x">8dp</dimen>
+    <dimen name="view_margin_16x">16dp</dimen>
+    <dimen name="view_margin_21x">21dp</dimen>
+    <dimen name="view_margin_24x">24dp</dimen>
+    <dimen name="view_margin_25x">25dp</dimen>
+
+    <!--values for common paddings-->
+    <dimen name="view_padding_4x">4dp</dimen>
+    <dimen name="view_padding_5x">5dp</dimen>
+    <dimen name="view_padding_6x">6dp</dimen>
+    <dimen name="view_padding_16x">16dp</dimen>
+    <dimen name="view_padding_8x">8dp</dimen>
+    <dimen name="view_padding_9x">9dp</dimen>
+    <dimen name="view_padding_10x">10dp</dimen>
+    <dimen name="view_padding_12x">12dp</dimen>
+    <dimen name="view_padding_14x">14dp</dimen>
+    <dimen name="view_padding_24x">24dp</dimen>
+    <dimen name="view_padding_25x">25dp</dimen>
+    <dimen name="view_padding_38x">38dp</dimen>
+    <dimen name="view_padding_96x">96dp</dimen>
+
+    <!--height for common views-->
+    <dimen name="activity_hello_view_height">44dp</dimen>
+
+    <!--text sizes for view-->
+    <dimen name="activity_hello_view_text_size">16sp</dimen>
+    <dimen name="activity_hello_text_view_text_size">24sp</dimen>
+
+    <dimen name="activity_hello_radius_border_view">3dp</dimen>
+    <dimen name="activity_hello_view_border_width">1dp</dimen>
+
+    <!--UpcomingEventsActivity dimens for views-->
+    <dimen name="activity_upcoming_events_margin_10x">10dp</dimen>
+    <dimen name="activity_upcoming_events_margin_8x">8dp</dimen>
+
+    <dimen name="activity_upcoming_events_radius_border">45dp</dimen>
+    <dimen name="activity_upcoming_events_radius_border_card_view">3dp</dimen>
+
+    <dimen name="activity_upcoming_events_recycler_view_padding_bottom">86dp</dimen>
+
+    <dimen name="activity_upcoming_events_like_button_width">154dp</dimen>
+    <dimen name="activity_upcoming_events_like_button_height">44dp</dimen>
+
+    <dimen name="activity_upcoming_events_view_text_size_13x">13sp</dimen>
+    <dimen name="activity_upcoming_events_view_text_size_14x">14sp</dimen>
+    <dimen name="activity_upcoming_events_view_text_size_16x">16sp</dimen>
+    <dimen name="activity_favorite_events_view_text_size_18x">18sp</dimen>
+    <dimen name="activity_upcoming_events_view_text_size_24x">24sp</dimen>
+
+
+
+    <dimen name="activity_upcoming_events_card_width">280dp</dimen>
+    <dimen name="activity_upcoming_events_card_text_view_width">248dp</dimen>
+
+    <dimen name="item_border_radius_3x">3dp</dimen>
+
+    <!--hearts sizes-->
+    <dimen name="heart_width_height">16dp</dimen>
+
+    <!--activity event details dimens for views and text size-->
+    <dimen name="activity_event_details_view_height">1dp</dimen>
+    <dimen name="activity_event_details_line_height_text_view_8x">8dp</dimen>
+    <dimen name="activity_event_details_line_height_text_view_12x">12dp</dimen>
+    <dimen name="activity_event_details_view_text_size_13x">13sp</dimen>
+    <dimen name="activity_event_details_view_text_size_14x">14sp</dimen>
+    <dimen name="activity_event_details_view_text_size_18x">18sp</dimen>
+    <dimen name="activity_event_details_radius_border_view">3dp</dimen>
+    <dimen name="activity_event_details_view_border_width">1dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="12dp">
+        <shape>
+            <corners android:radius="@dimen/item_border_radius_3x" />
+
+            <solid android:color="@color/activity_all_events_finished_bg_card_layout" />
+        </shape>
+    </item>
+</layer-list>

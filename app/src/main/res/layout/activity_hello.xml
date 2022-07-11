@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".hello.presentation.HelloActivity">
+
+    <FrameLayout
+        android:id="@+id/activity_hello_header_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_upcoming_events_activity"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/activity_hello_bottom_layout_to_be_resized">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/view_margin_16x"
+                android:background="@drawable/ic_activity_hello_logo_white" />
+
+            <ImageView
+                android:layout_width="@dimen/activity_hello_ic_corona_width"
+                android:layout_height="@dimen/activity_hello_ic_corona_height"
+                android:layout_marginHorizontal="@dimen/activity_hello_ic_corona_margin_horizontal"
+                android:background="@drawable/ic_activity_hello_corona"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_hello_bottom_layout_to_be_resized"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/what_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_hello_textview_what_is_your_name"
+        android:textSize="@dimen/activity_hello_text_view_text_size"
+        android:textColor="@color/activity_hello_textview_text_color"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="@dimen/view_margin_16x"
+        android:layout_marginStart="@dimen/view_margin_16x"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/activity_hello_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_hello_view_height"
+        android:hint="@string/activity_hello_edittext_enter_name"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/activity_hello_edittext_text_color"
+        android:textSize="@dimen/activity_hello_view_text_size"
+        android:background="@drawable/borders_activity_hello_edit_text"
+        android:layout_marginTop="@dimen/view_margin_16x"
+        android:paddingStart="@dimen/view_padding_16x"
+        android:layout_marginHorizontal="@dimen/view_margin_16x"
+        tools:ignore="InvalidId"
+        android:focusedByDefault="false"
+        />
+
+    <Button
+        android:id="@+id/activity_hello_continue_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_hello_view_height"
+        android:text="@string/action_continue"
+        android:textSize="@dimen/activity_hello_view_text_size"
+        android:textColor="@drawable/text_color_activity_hello_button_continue"
+        android:fontFamily="@font/roboto_regular"
+        android:background="@drawable/bg_activity_hello_button_continue"
+        android:enabled="false"
+        android:textAllCaps="false"
+        android:layout_marginVertical="@dimen/view_margin_16x"
+        android:layout_marginBottom="@dimen/view_margin_16x"
+        android:layout_marginHorizontal="@dimen/view_margin_16x"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

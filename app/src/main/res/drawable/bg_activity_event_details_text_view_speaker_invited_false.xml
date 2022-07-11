@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid
+        android:color="@color/secondary_color"/>
+
+    <corners
+        android:radius="@dimen/activity_event_details_radius_border_view"/>
+
+    <stroke
+        android:color="@color/secondary_color"
+        android:width="@dimen/activity_event_details_view_border_width"/>
+
+</shape>
